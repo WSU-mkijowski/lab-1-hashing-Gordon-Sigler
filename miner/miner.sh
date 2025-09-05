@@ -1,8 +1,5 @@
 #!/bin/bash
 
-
-echo "Starting this script (hopefully it is executable with chmod a+x ./miner.sh)"
-
 VARIABLE=some_string
 
 echo $VARIABLE
