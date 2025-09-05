@@ -28,12 +28,12 @@ I created 42 salts one salt for each unique user.
 * Instead of salts, if you were to use a nonce (unique number for each hashed
   field) how many possible combinations would I need to try?
 
-
+You have a range of 0 - 99999, so take that and times it by 42 which should give you around 4,199,958 combinations
 
 * Given the above, if this quiz data were *actual* class data, say for example
   your final exam, how would you store this dataset?  Why?
 
-
+You could keep it stored as a hash or slated hash so that way if someone who isn't very knowledgable went and peeked at the list they couldn't tell who was who. But that is like the only case I can think for that.
 
 ```bash
 please put any cool bash one-liners or other piped commands you
@@ -54,15 +54,36 @@ Answer the following:
 hash)
 
 ```
+00083913eafecef118543ef2df621fbd4c54a351f96086cd4718099cd0f6dce0 - 399these
+00085b7acd4d28fa1453a185c8d3bfb700b1ddc8f971a34c44cd50bc851f2b40 - 213commonly
+000fa2f4ba119690bc6949098dc190d75a6aadb15737277b88e5ac80b9f1b88d - 425dictionary
 
 ```
 
 * How many words were in your dictionary?
+
+There are 14 words in my dictionary
+
 * How many nonces did your code iterate over?
+
+In total since our range is 10 - 1000 it would be 990 x 14 (Amount of words in the dictionary) = 13,860
+
 * What was the maximum number of hashes your code *could* compute given the above?
+
+In total since our range is 10 - 1000 it would be 990 x 14 (Amount of words in the dictionary) = 13,860
+
 * What did you think about Task 2?
+
+I understood what was being asked and overall wasn't very challenging. However I have never been any good at coding so that really slowed me down. I was overthinking a lot until a couple of classmates gave me some pointers and guidence.
+
 * Is there a better way than brute force to attempt to get higher valued coins?
+
+AS far as I know I don't beleve so.
+
 * Why or why not?
+
+From my understanding you would have to do exactly what we did but with a bigger dictionary and more nonces. The overall process would be the same though.
+
 
 
 ```bash
