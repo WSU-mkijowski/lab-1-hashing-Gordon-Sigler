@@ -4,8 +4,8 @@
 ## (you might want to find a bigger dictionary)
 for word in $(cat ../data/dictionary); do
 
-## prints all numbers between 100 and 105, so we changed to print all numbers from 1 to 1000 and just like for the first loop kept it open.
-for salt in $(seq 1 1000); do
+## prints all numbers between 100 and 105, so we changed to print all numbers from 10 to 1000 because we need a min of two digits. Then just like for the first loop kept it open.
+for salt in $(seq 10 1000); do
 
 ## Used the professors example to create our combined saltedword, then how to create the hash.	
 saltedword="$salt""$word"
