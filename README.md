@@ -78,7 +78,7 @@ I understood what was being asked and overall wasn't very challenging. However I
 
 * Is there a better way than brute force to attempt to get higher valued coins?
 
-AS far as I know I don't beleve so.
+As far as I know I don't beleve so.
 
 * Why or why not?
 
